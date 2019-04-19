@@ -1,0 +1,45 @@
+/* InputNumber 添加末尾 addon，显示 mm 单位*/
+// InputNumber 添加 'mm' addon
+.ant-input-number {
+    width: 100px;
+    border-radius: 3px !important;
+}
+
+.ant-input-number-handler-wrap {
+    width: 12px;
+    right: 32px !important;
+}
+
+.ant-input-number-input-wrap {
+    width: calc(100% - 40px);
+}
+
+.ant-input-number-handler {
+    width: 100% !important;
+}
+
+.ant-input-number-input-wrap::after {
+    content: 'mm';
+    position: absolute;
+    z-index: 33333;
+    right: 0;
+    border-left: 1px solid #d9d9d9;
+    line-height: 28px;
+    height: 100%;
+    padding: 0 5px;
+    background: #F1F1F1;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    font-size: 12px;
+    color: #999999;
+    letter-spacing: 0;
+}
+
+.ant-input-number-handler-up-inner,
+.ant-input-number-handler-down-inner {
+    right: 0 !important;
+}
+
+.ant-input-number-input {
+    padding-left: 8px !important;
+}
