@@ -1,0 +1,43 @@
+.edit-table-blq-xjf {
+  td {
+    .input {
+      width: 100%;
+    }
+    .number {
+      input {
+        text-align: right;
+      }
+    }
+    .text-wrap {
+      height: 32px;
+      line-height: 32px;
+      border-radius: 3px;
+    }
+
+    &:hover {
+      .text-wrap {
+        border: 1px solid #e2e2e2;
+        padding: 0 2px;
+      }
+    }
+    &:focus {
+      .text-wrap {
+        border: none;
+      }
+    }
+  }
+  th {
+    text-align: center !important;
+  }
+
+  .ant-table-tbody > tr:hover > td {
+    .table-cell-toggle {
+      display: table-cell;
+      height: 100%;
+      line-height: 16px;
+    }
+  }
+  .ant-input-number-handler-wrap {
+    display: none !important;
+  }
+}

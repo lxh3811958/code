@@ -1,0 +1,1 @@
+<my-component title="static title" v-bind:dynamicProps="a"></my-component>
