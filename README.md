@@ -9,3 +9,5 @@
 3. ie9 iframe 文件上传 Upload
 
 4. 模拟进度进度条 Progress
+
+5. NumberInput 即时格式化数字输入组件
