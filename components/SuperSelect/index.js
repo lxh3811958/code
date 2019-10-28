@@ -233,10 +233,10 @@ export default class SuperSelect extends PureComponent {
 
   // 在搜索重新计算下拉滚动条高度
   onChange = (value, opt) => {
-    // 删除选中项时保持展开下拉列表状态
-    if (Array.isArray(value) && value.length < this.state.value.length) {
-      this.focusSelect();
-    }
+    // // 删除选中项时保持展开下拉列表状态
+    // if (Array.isArray(value) && value.length < this.state.value.length) {
+    //   this.focusSelect();
+    // }
 
     const { showSearch, onChange, autoClearSearchValue } = this.props;
     if (showSearch || this.isMultiple) {
